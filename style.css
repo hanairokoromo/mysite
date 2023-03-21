@@ -55,3 +55,39 @@ nav{
 .main-visual-text2{
     font-size: 20px;
 }
+
+.portfolio{
+    margin: auto;
+    width: 920px;
+    text-align: center;
+    background-color: #ECEFF1;
+    justify-content: center;
+}
+
+.portfolio-heading{
+    padding-top: 90px;
+    padding-bottom: 8px;
+    font-size: 32px;
+    color: #000000;
+    border-bottom: solid #EC715F;
+    border-width: 3px 70px;
+}
+
+.portfolio-content{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 16px;
+    color: #000000;
+}
+
+.portfolio-item{
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 90px;
+}
+
+.portfolio-img{
+    margin: auto;
+    width: 300px;
+    height: 250px;
+}
