@@ -91,3 +91,48 @@ nav{
     width: 300px;
     height: 250px;
 }
+
+.feature{
+    margin: auto;
+    padding-top: 90px;
+    width: 980px;
+    text-align: center;
+    justify-content: center;
+}
+
+.feature-heading{
+    font-size: 32px;
+    color: #000000;
+    border-bottom: solid #EC715F;
+    border-width: 3px 70px;
+    padding-bottom: 8px;
+}
+
+.feature-content{
+    padding: 30px 30px;
+    font-size: 16px;
+    color: #000000;
+}
+
+.feature-item{
+    width: 320px;
+    display: inline-block;
+    padding-bottom: 90px;
+}
+
+i{
+    font-size: 60px;
+}
+
+
+.feature-item-name{
+    font-size: 20px;
+    color: #000000;
+    padding: 10px 10px;
+}
+
+
+.feature-item-content{
+    font-size: 16px;
+    color: #000000;
+}
