@@ -193,3 +193,60 @@ i{
     color: #000000;
     padding-bottom: 20px;
 }
+
+.contact{
+    margin: auto;
+    width: 800px;
+    text-align: center;
+    justify-content: center;
+}
+
+.contact-heading{
+    padding-top: 90px;
+    font-size: 32px;
+    color: #000000;
+    border-bottom: solid #EC715F;
+    border-width: 3px 70px;
+    padding-bottom: 8px;
+}
+
+.contact-content{
+    padding: 30px 30px;
+    font-size: 16px;
+    color: #000000;
+}
+
+.contact-detail{
+    display: flex;
+    padding-bottom: 90px;
+}
+
+.contact-address{
+    width: 400px;
+    justify-content: flex-start;
+    text-align: center;
+}
+
+.contact-address-heading{
+    padding-bottom: 5px;
+    font-size: 20px;
+}
+
+.contact-address-item{
+    padding-bottom: 20px;
+}
+
+.contact-icon{
+    width: 400px;
+    justify-content: flex-end;
+}
+
+.contact-icon-heading{
+    padding-bottom: 5px;
+    font-size: 20px;
+}
+
+.contact-icon-item{
+    font-size: 50px;
+    margin: 20px;
+}
