@@ -250,3 +250,13 @@ i{
     font-size: 50px;
     margin: 20px;
 }
+
+footer{
+    height: 60px;
+    background-color: #EC715F;
+    font-size: 16px;
+    color: #FAFAFA;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
