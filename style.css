@@ -33,6 +33,34 @@ nav{
     padding: 0 10px;
 }
 
+.hamburger{
+    width: 40px;
+    height: 32px;
+    position: relative;
+}
+
+.hamburger_bar{
+    display: block;
+    width: 100%;
+    height: 4px;
+    position: absolute;
+    left: 0;
+}
+
+.hamburger_bar:nth-child(1){
+    top: 0;
+}
+
+.hamburger_bar:nth-child(2){
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.hamburger_bar:nth-child(3){
+    top: 100%;
+    transform: translateY(-100%);
+}
+
 .main-visual{
     width: 100%;
     height: 650px;
@@ -259,4 +287,56 @@ footer{
     display: flex;
     text-align: center;
     justify-content: center;
+}
+
+@media screen and (max-width: 767px) {
+    header{
+        height: 50px;
+        width: 90%;
+    }
+    
+    .main-visual{
+        background-image: url('code.png');
+        width: 90%;
+        height: 650px;
+    }
+    
+    .main-visual-text1{
+        padding-top: 200px;
+        font-size: 40px;
+        color: #FAFAFA;
+    }
+    
+    .main-visual-text2{
+        padding-top: 10px;
+        font-size: 16px;
+        color: #FAFAFA;
+    }
+    
+    .portfolio{
+        width: 90%;
+        padding-bottom: 90px;
+    }
+    
+    .portfolio-heading{
+        padding-top: 90px;
+        padding-bottom: 8px;
+        font-size: 32px;
+        color: #000000;
+        border-bottom: solid #EC715F;
+        border-width: 3px 70px; 
+    }
+    
+    .portfolio-content{
+        padding-top: 30px;
+        padding-bottom: 30px;
+        font-size: 16px;
+        color: #000000;
+    }
+    
+    .portfolio-img{
+        width: 300px;
+        height: 250px;
+    }
+    
 }
