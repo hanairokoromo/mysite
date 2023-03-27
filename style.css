@@ -411,4 +411,40 @@ footer{
         color: #000000;
     }
     
+    .contact{
+        width: 90%;
+    }
+    
+    .contact-heading{
+        padding: 90px 8px;
+        font-size: 32px;
+        color: #000000;
+        border-bottom: solid #EC715F;
+        border-width: 3px 70px; 
+    }
+    
+    .contact-content{
+        padding: 30px;
+        font-size: 16px;
+        color: #000000;
+    }
+    
+    .contact-address-heading{
+        font-size: 20px;
+        color: #000000;
+        padding-bottom: 5px;
+    }
+    
+    .contact-address-item{
+        padding-bottom: 20px;
+    }
+    
+    .contact-icon-item{
+        font-size: 50px;
+    }
+    
+    footer{
+        height: 60px;
+        font-size: 16px;
+    }
 }
